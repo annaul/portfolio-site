@@ -1,0 +1,28 @@
+.projects {
+  display: inline-block;
+  width: 46vw;
+  padding: 1%;
+  overflow: auto;
+  float: left;
+}
+.projects img {
+  padding: 2%;
+  width: 100%;
+  margin-bottom: 2%;
+}
+.clearfix {
+  clear: both;
+}
+.techtext {
+  width: 100%;
+  margin: 3px 0 3px 0;
+  margin: .5vw 0 .5vw 0;
+}
+.techtext span {
+  margin-left: .5vw;
+  padding: 0 .5vw 0 .5vw;
+  border-color: blue;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+}

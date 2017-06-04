@@ -1,0 +1,30 @@
+@media only screen and (max-width: 650px) {
+  header h1 {
+    display: inline-block;
+    width: 50%;
+    font-size: 8vw;
+    margin-left: 2.5vw;
+  }
+  header ul {
+    display: inline-block;
+    width: 46%;
+    text-align: right;
+    margin-right: .5vw;
+  }
+  header ul li {
+    margin: 0 2vw 0 2vw;
+    font-size: 3vw;
+  }
+  header i {
+    margin: 3% 2% 0 2%;
+  }
+  .projects {
+    width: 96%;
+  }
+
+  /*projects*/
+
+  .projects:nth-child(1) img {
+    src: url('./img/ways2go-sm.jpg');
+  }
+}
