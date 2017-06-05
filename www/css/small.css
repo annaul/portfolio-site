@@ -25,6 +25,15 @@
   /*projects*/
 
   .projects:nth-child(1) img {
-    src: url('./img/ways2go-sm.jpg');
+    content: url('/img/ways2go-sm.jpg');
+  }
+  .projects:nth-child(2) img {
+    content: url('/img/grabngo-sm.jpg');
+  }
+  .projects:nth-child(3) img {
+    content: url('/img/bitmap-sm.jpg');
+  }
+  .projects:nth-child(4) img {
+    content: url('/img/ngadventure-sm.jpg');
   }
 }
