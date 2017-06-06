@@ -17,7 +17,6 @@ h1 {
   padding-left: .5%;
 }
 ul {
-	overflow: auto;
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -25,7 +24,6 @@ ul {
 }
 ul li {
 	list-style-type: none;
-	/*float: left;*/
   display: inline-block;
 }
 i {
@@ -34,5 +32,4 @@ i {
 	height: 4vw;
 	border-radius: 25px;
 	font-size: 3.5vw;
-  font-weight: lighter;
 }
