@@ -1,8 +1,7 @@
 .projects {
   display: inline-block;
-  width: 46vw;
+  width: 45vw;
   padding: 1%;
-  overflow: auto;
   float: left;
 }
 .projects img {
