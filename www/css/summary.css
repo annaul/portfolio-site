@@ -1,0 +1,13 @@
+.summary {
+  display: inline-block;
+  width: 95%;
+  margin-left: 2vw;
+  padding-left: .5%;
+  background-color: #010011;
+  color: white;
+}
+.summary p {
+  padding: .5%;
+  font-family: 'Space Mono', monospace;
+  line-height: 150%;
+}
