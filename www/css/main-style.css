@@ -14,6 +14,7 @@ h1 {
   float: left;
   margin-top: 5px;
   padding-left: .5%;
+  font-weight: bold;
 }
 p {
   line-height: .75em;

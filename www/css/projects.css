@@ -9,6 +9,9 @@
   width: 100%;
   margin-bottom: 3% 4%;
 }
+.img {
+  margin-left: -0.5vw;
+}
 .projects div {
   position: relative;
 }

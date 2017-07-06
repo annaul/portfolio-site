@@ -2,7 +2,7 @@
   header h1 {
     display: inline-block;
     width: 100%;
-    font-size: 5vw;
+    font-size: 2em;
     margin-left: 2.5vw;
   }
   header ul {
@@ -20,6 +20,15 @@
   .projects, .summary {
     width: 96%;
   }
+  .summary {
+    margin-left: 3vw;
+  }
+  .img {
+    margin-left: -1.5vw;
+  }
+  /*.projects {
+    margin-left: -2vw;
+  }*/
   .title {
     font-size: 4vw;
   }
