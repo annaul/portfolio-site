@@ -2,7 +2,7 @@
   header h1 {
     display: inline-block;
     width: 100%;
-    font-size: 8vw;
+    font-size: 5vw;
     margin-left: 2.5vw;
   }
   header ul {
@@ -17,22 +17,25 @@
   header i {
     margin: 3% 2% 0 1%;
   }
-  .projects {
+  .projects, .summary {
     width: 96%;
   }
-
-  /*projects*/
-
+  .title {
+    font-size: 4vw;
+  }
+  .blurb {
+    font-size: 3.5vw;
+  }
   #ways {
-    content: url('/img/ways2go-sm.jpg');
+    content: url('../img/ways2go-sm.jpg');
   }
   #grab {
-    content: url('/img/grabngo-sm.jpg');
+    content: url('../img/grabngo-sm.jpg');
   }
   #bitmap {
-    content: url('/img/bitmap-sm.jpg');
+    content: url('../img/bitmap-sm.jpg');
   }
   #ng {
-    content: url('/img/ngadventure-sm.jpg');
+    content: url('../img/ngadventure-sm.jpg');
   }
 }
