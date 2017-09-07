@@ -1,17 +1,12 @@
 .projects {
+  padding-top: 2%;
+}
+.projects .img img {
+  padding: 1% 1% 1% 0;
+  width: 48%;
   display: inline-block;
-  width: 45vw;
-  padding: 1%;
-  float: left;
 }
-.projects img, .img{
-  padding: 2%;
-  width: 100%;
-  margin-bottom: 3% 4%;
-}
-.img {
-  margin-left: -0.5vw;
-}
+
 .projects div {
   position: relative;
 }
@@ -22,22 +17,9 @@
   font-size: 3vw;
 }
 .blurb {
-  position: absolute;
-  z-index: 1;
-  top: 20%;
-  left: 20%;
-  padding: 2%;
+  padding-left: 1%;
   display: inline-block;
-  width: 60%;
-  height: 50%;
-  text-decoration: none;
-  background: rgba(211, 211, 211, 0.85);
-  text-align: left;
-  color: black;
-  font-weight: 200;
-  font-size: 2vw;
-  line-height: 150%;
-  overflow: hidden;
+  width: 49%;
 }
 .clearfix {
   clear: both;

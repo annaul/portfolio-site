@@ -1,13 +1,53 @@
 .summary {
   display: inline-block;
-  width: 95%;
-  margin-left: 2vw;
-  padding-left: 1%;
+  width: 100%;
+  margin: auto;
+  margin-left: -1.5%;
+  height: 80vh;
+  padding-left: 3%;
+  padding-top: 3%;
   background-color: #010011;
   color: white;
 }
+
 .summary p {
-  padding: .5%;
-  font-family: 'Space Mono', monospace;
-  line-height: 150%;
+  font-size: 1.5em;
+  width: 50em;
+  line-height: 1.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 5s steps(40, end);
+}
+
+.summary p:nth-child(1) {
+  opacity:0;
+  animation: type2 5s steps(40, end);
+  animation-fill-mode: forwards;
+}
+
+.summary p:nth-child(2) {
+  opacity:0;
+  animation: type3 5s steps(40, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+/* The typing effect */
+@keyframes type{
+  from { width: 0; }
+}
+@keyframes type2{
+  0% {width: 0;}
+  from {opacity:0;}
+  1% {opacity:1;}
+  to {opacity:1;}
+  100% {opacity:1;}
+}
+@keyframes type3{
+  0%{width: 0;}
+  from {opacity:0;}
+  1%{opacity:1;}
+  to{opacity:1;}
+  100%{opacity:1;}
+  overflow: auto;
 }
