@@ -1,9 +1,12 @@
-section:nth-child(3) {
-  margin-top: 10%;
+.projects {
+  margin-bottom: 2em;
+}
+section:nth-child(2) {
+  margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(2, 48%);
   grid-template-rows: repeat(20, 10%);
-  grid-gap: 2em;
+  grid-column-gap: 1em;
   justify-items: stretch;
   align-items: stretch;
 }
