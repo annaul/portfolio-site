@@ -2,6 +2,7 @@
   margin-bottom: 2em;
 }
 section:nth-child(2) {
+  padding-left: 1em;
   margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(2, 48%);
@@ -11,7 +12,8 @@ section:nth-child(2) {
   align-items: stretch;
 }
 .img {
-  width: 80%;
+  width: 60%;
+  padding: 5% 0;
 }
 img {
   max-width: 100%;
@@ -20,6 +22,7 @@ img {
   font-weight: bold;
   text-align: center;
   font-size: 3vw;
+  margin-left: 1em;
 }
 .blurb {
   line-height: 1.5em;
@@ -49,7 +52,8 @@ img {
   grid-row: 3 / 7;
 }
 .projects:nth-child(1) img {
-clip-path: polygon(0% 0%, 55% 0, 100% 50%, 58% 100%, 0% 100%);
+  -webkit-clip-path: polygon(51% 25%, 99% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  clip-path: polygon(51% 25%, 99% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
 .projects:nth-child(1) .blurb {
   grid-column: 1;
@@ -69,7 +73,8 @@ clip-path: polygon(0% 0%, 55% 0, 100% 50%, 58% 100%, 0% 100%);
   grid-row: 3 / 7;
 }
 .projects:nth-child(2) img {
-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -webkit-clip-path: polygon(50% 0%, 78% 0, 100% 48%, 78% 100%, 0 100%, 23% 51%, 0 0);
+  clip-path: polygon(50% 0%, 78% 0, 100% 48%, 78% 100%, 0 100%, 23% 51%, 0 0);
 }
 .projects:nth-child(2) .blurb {
   grid-column: 2;
@@ -89,7 +94,8 @@ clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   grid-row: 13 / 17;
 }
 .projects:nth-child(3) img {
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 .projects:nth-child(3) .blurb {
   grid-column: 1;
@@ -109,7 +115,8 @@ clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   grid-row: 13 / 17;
 }
 .projects:nth-child(4) img {
-  clip-path: polygon(38% 0, 100% 1%, 100% 100%, 41% 100%, 0% 50%);
+  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 100%, 52% 80%, 0 100%, 0 25%);
+  clip-path: polygon(50% 0, 100% 25%, 100% 100%, 52% 80%, 0 100%, 0 25%);
 }
 .projects:nth-child(4) .blurb {
   grid-column: 2;
