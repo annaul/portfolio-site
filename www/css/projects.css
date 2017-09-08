@@ -36,10 +36,10 @@ img {
 }
 .techtext span {
   margin-left: .5vw;
-  padding: 0 .5vw 0 .5vw;
+  padding: .25vw .5vw .25vw .5vw;
   border-color: blue;
   display: inline-block;
-  border: 1px solid black;
+  border: 1px solid Gray;
   border-radius: 5px;
 }
 /*ways-to-go*/
