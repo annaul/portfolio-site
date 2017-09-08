@@ -1,9 +1,10 @@
-header {
+/*header {
   display: block;
   width: 100%;
   padding: 2vw 0 2vw 0;
-  margin-bottom: 5%;
-}
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}*/
 body {
   font-family: 'Play', sans-serif;
   font-family: 'Rokkitt', serif;
@@ -12,24 +13,19 @@ body {
 }
 h1 {
   font-size: 2.5em;
-  display: inline-block;
-  float: left;
-  padding-left: 2.5%;
+  grid-column: 1;
 }
-ul {
+/*ul {
   margin: 0;
   padding: 0;
-  display: inline-block;
-  float: right;
-}
-ul li {
-	list-style-type: none;
-  display: inline-block;
-}
+  text-align: right;
+  grid-column: 3;
+}*/
 i {
-	color: #010011;
+	color: white;
 	width: 5vw;
 	height: 4vw;
 	border-radius: 25px;
 	font-size: 3.5vw;
+  letter-spacing: .2em;
 }

@@ -1,28 +1,27 @@
-.projects {
-  padding-top: 2%;
+section:nth-child(3) {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  grid-template-rows: repeat(20, 10%);
+  grid-gap: 2em;
+  justify-items: stretch;
+  align-items: stretch;
 }
-.projects .img img {
-  padding: 1% 1% 1% 0;
-  width: 48%;
-  display: inline-block;
+.img {
+  width: 80%;
 }
-
-.projects div {
-  position: relative;
+img {
+  max-width: 100%;
 }
 .title {
   font-weight: bold;
-  display: block;
   text-align: center;
   font-size: 3vw;
 }
 .blurb {
+  line-height: 1.5em;
   padding-left: 1%;
-  display: inline-block;
-  width: 49%;
-}
-.clearfix {
-  clear: both;
+  width: 100%;
 }
 .techtext {
   width: 100%;
@@ -36,4 +35,84 @@
   display: inline-block;
   border: 1px solid black;
   border-radius: 5px;
+}
+/*ways-to-go*/
+.projects:nth-child(1) .title {
+  grid-column: 1;
+  grid-row: 1;
+}
+.projects:nth-child(1) .img {
+  grid-column: 1;
+  grid-row: 3 / 7;
+}
+.projects:nth-child(1) img {
+clip-path: polygon(0% 0%, 55% 0, 100% 50%, 58% 100%, 0% 100%);
+}
+.projects:nth-child(1) .blurb {
+  grid-column: 1;
+  grid-row: 8 / 9;
+}
+.projects:nth-child(1) .techtext {
+  grid-column: 1;
+  grid-row: 10;
+}
+/*grab-n-go*/
+.projects:nth-child(2) .title {
+  grid-column: 2;
+  grid-row: 1;
+}
+.projects:nth-child(2) .img {
+  grid-column: 2;
+  grid-row: 3 / 7;
+}
+.projects:nth-child(2) img {
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.projects:nth-child(2) .blurb {
+  grid-column: 2;
+  grid-row: 8 / 9;
+}
+.projects:nth-child(2) .techtext {
+  grid-column: 2;
+  grid-row: 10;
+}
+/*ng-adventure*/
+.projects:nth-child(3) .title {
+  grid-column: 1;
+  grid-row: 11;
+}
+.projects:nth-child(3) .img {
+  grid-column: 1;
+  grid-row: 13 / 17;
+}
+.projects:nth-child(3) img {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.projects:nth-child(3) .blurb {
+  grid-column: 1;
+  grid-row: 18 / 19;
+}
+.projects:nth-child(3) .techtext {
+  grid-column: 1;
+  grid-row: 20;
+}
+/*bitmap*/
+.projects:nth-child(4) .title {
+  grid-column: 2;
+  grid-row: 11;
+}
+.projects:nth-child(4) .img {
+  grid-column: 2;
+  grid-row: 13 / 17;
+}
+.projects:nth-child(4) img {
+  clip-path: polygon(38% 0, 100% 1%, 100% 100%, 41% 100%, 0% 50%);
+}
+.projects:nth-child(4) .blurb {
+  grid-column: 2;
+  grid-row: 18 / 19;
+}
+.projects:nth-child(4) .techtext {
+  grid-column: 2;
+  grid-row: 20;
 }
