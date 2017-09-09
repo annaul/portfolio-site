@@ -21,9 +21,8 @@
   overflow: hidden;
 }
 @media screen and (orientation: portrait) {
-  .summary {
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+  .hello-text {
+    margin-left: 15%;
   }
   .no-break {
     display: none;
