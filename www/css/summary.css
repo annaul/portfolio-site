@@ -11,7 +11,7 @@
 
 }
 .hello-text {
-  grid-column: 3 / 5;
+  grid-column: 2 / 5;
   grid-row: 2 / 3;
 }
 .summary p {
@@ -20,47 +20,55 @@
   line-height: 1.5em;
   white-space: nowrap;
   overflow: hidden;
-  animation: type 5s steps(40, end);
 }
-.summary p:nth-child(1) {
-  opacity:0;
-  animation: type2 5s steps(40, end);
-  animation-fill-mode: forwards;
+@media screen and (orientation: portrait) {
+  .no-break {
+    display: none;
+  }
+  .summary .c {
+    opacity:0;
+    animation: type 5s steps(40, end);
+    animation-fill-mode: forwards;
+  }
+  .summary .d {
+    opacity:0;
+    animation: type 5s steps(40, end);
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  .summary .e {
+    opacity:0;
+    animation: type 5s steps(40, end);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+  .summary .f {
+    opacity:0;
+    animation: type 5s steps(40, end);
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
 }
-.summary p:nth-child(2) {
-  opacity:0;
-  animation: type2 5s steps(40, end);
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
+@media screen and (orientation: landscape) {
+  .break {
+    display: none;
+  }
+  .summary .a {
+    opacity:0;
+    animation: type 5s steps(40, end);
+    animation-fill-mode: forwards;
+  }
+  .summary .b {
+    opacity:0;
+    animation: type 5s steps(40, end);
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
 }
-.summary p:nth-child(3) {
-  opacity:0;
-  animation: type2 5s steps(40, end);
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-}
-.summary p:nth-child(4) {
-  opacity:0;
-  animation: type2 5s steps(40, end);
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
-}
-/* The typing effect */
-@keyframes type{
-  from { width: 0; }
-}
-@keyframes type2{
+@keyframes type {
   0% {width: 0;}
   from {opacity:0;}
   1% {opacity:1;}
   to {opacity:1;}
   100% {opacity:1;}
 }
-/*@keyframes type3{
-  0%{width: 0;}
-  from {opacity:0;}
-  1%{opacity:1;}
-  to{opacity:1;}
-  100%{opacity:1;}
-  overflow: auto;
-}*/
