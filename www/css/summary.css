@@ -8,7 +8,6 @@
   color: white;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(6, 1fr);
-
 }
 .hello-text {
   grid-column: 2 / 5;
@@ -22,6 +21,10 @@
   overflow: hidden;
 }
 @media screen and (orientation: portrait) {
+  .summary {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
   .no-break {
     display: none;
   }
