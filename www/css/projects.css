@@ -14,6 +14,7 @@ section:nth-child(2) {
 .img {
   width: 60%;
   padding: 5% 0;
+  margin-left: 10%;
 }
 img {
   max-width: 100%;
@@ -73,8 +74,8 @@ img {
   grid-row: 3 / 7;
 }
 .projects:nth-child(2) img {
-  -webkit-clip-path: polygon(50% 0%, 78% 0, 100% 48%, 78% 100%, 0 100%, 23% 51%, 0 0);
-  clip-path: polygon(50% 0%, 78% 0, 100% 48%, 78% 100%, 0 100%, 23% 51%, 0 0);
+  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 .projects:nth-child(2) .blurb {
   grid-column: 2;
@@ -94,8 +95,8 @@ img {
   grid-row: 13 / 17;
 }
 .projects:nth-child(3) img {
-  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  -webkit-clip-path: polygon(50% 0%, 78% 0, 100% 48%, 78% 100%, 0 100%, 23% 51%, 0 0);
+  clip-path: polygon(50% 0%, 78% 0, 100% 48%, 78% 100%, 0 100%, 23% 51%, 0 0);
 }
 .projects:nth-child(3) .blurb {
   grid-column: 1;
