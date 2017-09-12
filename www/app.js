@@ -1,4 +1,7 @@
 'use strict';
 
-$('.arrow').hide().delay(5000).fadeIn('slow');
-$('.arrow').delay(1000).animate({ marginTop: '25vh' }, 1000);
+$('.arrow').hide().delay(5000).show(0);
+$('.arrow').animate({ marginTop: '25vh' }, 2000);
+
+// .delay(1000)
+// .fadeIn(2000)
