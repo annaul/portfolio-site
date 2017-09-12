@@ -28,6 +28,10 @@ p {
   line-height: .75em;
   font-size: 1.25em;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 img {
   width: 100%;
   height: auto;
