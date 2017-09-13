@@ -4,7 +4,6 @@ $('.arrow').hide().delay(5000).show(0);
 $('.arrow').animate({ marginTop: '23vh' }, 1000);
 
 /*projets title*/
-$('.new-title').load(location.href + " #demo")
 var title = $('#projects-title').text();
 var $num = title.length + 4; //num of columns
 var property = 'repeat(' + $num + ', 1fr)'
