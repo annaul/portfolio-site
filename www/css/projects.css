@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(2, 48%);
   grid-template-rows: repeat(21, 10%);
-  grid-column-gap: 1em;
+  grid-column-gap: 2.2em;
   justify-items: stretch;
   align-items: stretch;
 }
@@ -29,7 +29,6 @@ img {
 .blurb {
   line-height: 1.5em;
   font-size: 1.2em;
-  padding-left: 1%;
   width: 100%;
 }
 .techtext {
@@ -45,6 +44,7 @@ img {
   border: 1px solid Gray;
   border-radius: 5px;
   font-size: 1rem;
+  margin-bottom: 5%;
 }
 .new-title {
   margin-top: 2vh;
@@ -79,7 +79,6 @@ img {
 #ways .techtext {
   grid-column: 1;
   grid-row: 11;
-  margin-bottom: 5%;
 }
 /*grab-n-go*/
 #grab .title {
@@ -101,7 +100,6 @@ img {
 #grab .techtext {
   grid-column: 2;
   grid-row: 11;
-  margin-bottom: 5%;
 }
 /*ng-adventure*/
 #ng .title {
@@ -123,7 +121,6 @@ img {
 #ng .techtext {
   grid-column: 1;
   grid-row: 21;
-  margin-bottom: 5%;
 }
 /*bitmap*/
 #bitmap .title {
@@ -145,5 +142,4 @@ img {
 #bitmap .techtext {
   grid-column: 2;
   grid-row: 21;
-  margin-bottom: 5%;
 }
