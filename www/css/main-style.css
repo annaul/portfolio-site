@@ -1,6 +1,6 @@
-@-ms-viewport{
+/*@-ms-viewport{
   width: device-width;
-}
+}*/
 body {
   position: relative;
   font-family: 'Rokkitt', serif;
@@ -17,11 +17,8 @@ html,body {
   overflow-x: hidden;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   display: inline-block;
-  float: left;
-  margin-top: 5px;
-  padding-left: .5%;
   font-weight: bold;
 }
 p {
