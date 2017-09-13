@@ -15,29 +15,26 @@ footer {
 }
 i {
 	color: white;
-	width: 5vw;
-	height: 4vw;
 	border-radius: 25px;
 	font-size: 3.5vw;
-  letter-spacing: .2em;
 }
-span:nth-child(1) {
+footer span:nth-child(1) {
   grid-row: 1;
   grid-column: 2;
-  margin: auto;
+  text-align: center;
 }
-span:nth-child(2) {
+footer span:nth-child(2) {
   grid-row: 1;
   grid-column: 3;
-  margin: auto;
+  text-align: center;
 }
-span:nth-child(3) {
+footer span:nth-child(3) {
   grid-row: 1;
   grid-column: 4;
-  margin: auto;
+  text-align: center;
 }
-span:nth-child(4) {
+footer span:nth-child(4) {
   grid-row: 1;
   grid-column: 5;
-  margin: auto;
+  text-align: center;
 }

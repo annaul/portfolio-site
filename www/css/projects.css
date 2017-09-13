@@ -45,9 +45,18 @@ img {
   border-radius: 5px;
   font-size: 1rem;
 }
+.new-title {
+  margin-top: 2vh;
+  border-top: 2px dotted grey;
+  border-bottom: 2px dotted grey;
+  padding: 1vh 0;
+  display: grid;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-column-gap: 1%;
+}
 #projects-title {
-  padding-left: 3vw;
-  margin: 3vh 30vw;
+  display: none;
 }
 /*ways-to-go*/
 #ways .title {
