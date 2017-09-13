@@ -1,5 +1,6 @@
 .projects {
   margin-bottom: 2em;
+
 }
 #projects {
   padding-left: 1em;
@@ -78,6 +79,7 @@ img {
 #ways .techtext {
   grid-column: 1;
   grid-row: 11;
+  margin-bottom: 5%;
 }
 /*grab-n-go*/
 #grab .title {
@@ -99,6 +101,7 @@ img {
 #grab .techtext {
   grid-column: 2;
   grid-row: 11;
+  margin-bottom: 5%;
 }
 /*ng-adventure*/
 #ng .title {
@@ -120,6 +123,7 @@ img {
 #ng .techtext {
   grid-column: 1;
   grid-row: 21;
+  margin-bottom: 5%;
 }
 /*bitmap*/
 #bitmap .title {
@@ -141,4 +145,5 @@ img {
 #bitmap .techtext {
   grid-column: 2;
   grid-row: 21;
+  margin-bottom: 5%;
 }
