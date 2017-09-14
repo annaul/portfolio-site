@@ -60,6 +60,9 @@ img {
 #projects-title {
   display: none;
 }
+#ways .techtext, #grab .techtext, #ng .techtext, #bitmap .techtext {
+  margin-bottom: 1em;
+}
 /*ways-to-go*/
 #ways .title {
   grid-column: 1;
@@ -80,7 +83,6 @@ img {
 #ways .techtext {
   grid-column: 1;
   grid-row: 11;
-  margin-bottom: .5em;
 }
 /*grab-n-go*/
 #grab .title {
@@ -102,7 +104,6 @@ img {
 #grab .techtext {
   grid-column: 2;
   grid-row: 11;
-  margin-bottom: .5em;
 }
 /*ng-adventure*/
 #ng .title {
