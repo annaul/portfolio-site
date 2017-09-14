@@ -21,7 +21,14 @@ function insertChar(titleArr) {
       'grid-column': String(colNum),
       'grid-row': '1',
       'text-align': 'center'
-    })
+    });
   };
-}
+};
 insertChar(titleArr);
+
+/*summary shrink*/
+// $(document).scroll(function() {
+//   $('.summary').css({
+//     'height': ''
+//   });
+// });
