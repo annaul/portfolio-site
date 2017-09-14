@@ -1,14 +1,17 @@
 .projects {
   margin-bottom: 2em;
+  margin-right: 1em;
 
 }
 #projects {
   padding-left: 1em;
+  padding-right: 1em;
+  overflow: hidden;
   margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(2, 48%);
   grid-template-rows: repeat(21, 10%);
-  grid-column-gap: 2.2em;
+  grid-column-gap: 1em;
   justify-items: stretch;
   align-items: stretch;
 }
@@ -28,11 +31,14 @@ img {
 }
 .blurb {
   line-height: 1.5em;
-  font-size: 1.2em;
-  width: 100%;
+  font-size: 1.1em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
 }
 .techtext {
   width: 100%;
+  padding-right: 1em;
   margin: 3px 0 3px 0;
   margin: .5vw 0 .5vw 0;
 }
