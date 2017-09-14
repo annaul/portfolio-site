@@ -1,4 +1,5 @@
 'use strict';
+
 /*arrow animation*/
 $('.arrow').hide().delay(5000).show(0);
 $('.arrow').animate({ marginTop: '23vh' }, 1000);
@@ -25,10 +26,3 @@ function insertChar(titleArr) {
   };
 };
 insertChar(titleArr);
-
-/*summary shrink*/
-// $(document).scroll(function() {
-//   $('.summary').css({
-//     'height': ''
-//   });
-// });

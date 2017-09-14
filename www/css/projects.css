@@ -10,6 +10,16 @@
   justify-items: stretch;
   align-items: stretch;
 }
+@media only screen and (max-width : 420px) {
+  .lrgNg {
+    display: none;
+  }
+}
+@media only screen and (min-width : 421px) {
+  .smNg {
+    display: none;
+  }
+}
 .img {
   width: 60%;
   padding: 5% 0;
