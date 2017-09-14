@@ -1,13 +1,9 @@
-.projects {
-  margin-bottom: 2em;
-  margin-right: 1em;
-
-}
 #projects {
   padding-left: 1em;
   padding-right: 1em;
   overflow: hidden;
   margin-top: 5%;
+  margin-bottom: 3em;
   display: grid;
   grid-template-columns: repeat(2, 48%);
   grid-template-rows: repeat(21, 10%);
