@@ -47,9 +47,9 @@ img {
   margin-bottom: 5%;
 }
 .new-title {
-  margin-top: 2vh;
+  margin-top: 5vh;
   border-top: 2px dotted grey;
-  border-bottom: 2px dotted grey;
+  border-bottom: 1.5px dotted grey;
   padding: 1vh 0;
   display: grid;
   justify-items: stretch;
