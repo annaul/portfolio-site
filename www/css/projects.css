@@ -83,7 +83,7 @@ img {
   grid-row: 4 / 8;
 }
 #ways img {
-  opacity: 0.7;
+  opacity: 0.8;
   -webkit-clip-path: polygon(51% 25%, 99% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
   clip-path: polygon(51% 25%, 99% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
@@ -147,7 +147,7 @@ img {
   grid-row: 14 / 18;
 }
 #bitmap img {
-  opacity: 0.7;
+  opacity: 0.8;
   -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 100%, 52% 80%, 0 100%, 0 25%);
   clip-path: polygon(50% 0, 100% 25%, 100% 100%, 52% 80%, 0 100%, 0 25%);
 }
