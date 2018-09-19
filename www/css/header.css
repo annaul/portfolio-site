@@ -3,3 +3,16 @@
   padding-top: 2%;
   margin-bottom: 1%;
 }
+.social-top i {
+  color: black;
+  display: inline-block;
+  margin-right: 2%;
+  float: right;
+  padding-top: 3%;
+}
+@media only screen and (max-width: 600px) {
+  .social-top {
+    display: none;
+  }
+
+}

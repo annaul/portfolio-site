@@ -18,11 +18,11 @@ function insertChar(titleArr) {
   for (var i = 0; i < titleArr.length; i ++) {
     var colNum = i + 3;
     $('<span>' + titleArr[i] + '</span>').appendTo('.new-title')
-    .css({
-      'grid-column': String(colNum),
-      'grid-row': '1',
-      'text-align': 'center'
-    });
-  };
-};
+      .css({
+        'grid-column': String(colNum),
+        'grid-row': '1',
+        'text-align': 'center'
+      });
+  }
+}
 insertChar(titleArr);

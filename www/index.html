@@ -2,6 +2,7 @@
 <html lang="en" ng-app="annaU">
   <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript, React,React Native,Mobile,iOS,Android,Developer">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
@@ -11,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Play|Rokkitt|Space+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt|Source+Code+Pro" rel="stylesheet">
     <link rel="icon" href="img/AUFavicon.png" type="image/gif" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <title>Anna Ulanova</title>
@@ -19,6 +20,12 @@
   <body>
     <header>
       <h1 id="name">Anna Ulanova</h1>
+      <span class="social-top">
+        <span><a href="mailto:anetteua0@gmail.com"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></span>
+        <span><a href="https://github.com/annaul" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></span>
+        <span><a href="https://www.linkedin.com/in/anna-ulanova-1aa9589" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></span>
+        <span><a href="https://twitter.com/annaul3" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></span>
+      </span>
     </header>
     <main>
       <section id="summary">
@@ -26,12 +33,27 @@
           <span class="blue">Web</span> and <span class="green">mobile</span> javascript developer, currently specializing in <span class="orange">React Native</span> (framework used to create native <span class="red">iOS</span> and Android Apps).
         </p>
         <p class="summary-point">
-          UI, UX, <span class="orange">CSS</span> and Flexbox perfectionist.
-        </P>
+          <span class="orange">CSS</span>, Flexbox and <span class="green">responsive</span> design perfectionist.
+        </p>
       </section>
         <h1 id="projects-title">Projects</h1>
         <h1 class="new-title"></h1>
       <section id="projects">
+        <div id="csv">
+          <a href="https://github.com/annaul/csv-processing" target="_blank">
+          <span class="title">Visualization</span>
+          <div class="img">
+            <img src="img/csv.jpg" alt=".csv processing github">
+          </div>
+          </a>
+          <span class="blurb">
+            Personal expense analysis app feature. Takes a .csv file and outputs a color coded bar chart organized by preset and custom categories.
+          </span>
+          <p class="techtext">
+            <span>js</span><span>vega</span><span>express</span><span>handlebars.js</span><span>jquery</span><span>jsdom</span>
+          </p>
+        </div>
+
         <div id="ways">
           <a href="https://ways2go-app.herokuapp.com/" target="_blank">
           <span class="title">Ways2Go</span>
